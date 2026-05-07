@@ -2,7 +2,7 @@
 This This version implements two things
 the first is to try to predict changes in movement 
 the second is that if the first happens, the aiming changes to the torso, which is where it will be easier to hit the target bc the hitbox
-use  scroll wheel to on/off; if the target is behind a wall js press scroll wheel twice 
+press scroll wheel to on/off; if the target is behind a wall js press scroll wheel twice 
 Hold the scroll button for 6 seconds to close the script
 ]]
 -- Update 05/07/2026: It didn't select neutral people before if you were on the same team, but now it does.
