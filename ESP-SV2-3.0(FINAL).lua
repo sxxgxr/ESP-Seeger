@@ -1,5 +1,5 @@
 task.spawn(function()
-	local CHANGELOG_URL = "https://raw.githubusercontent.com/sxxgxr/ChangeLogs/refs/heads/main/Changelog.lua"
+	local CHANGELOG_URL = "https://raw.githubusercontent.com/sxxgxr/ChangeLogs/refs/heads/main/Changelogs.lua"
 
 	local success, changelog = pcall(function()
 		return loadstring(game:HttpGet(CHANGELOG_URL .. "?t=" .. tostring(os.time())))()
